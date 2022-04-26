@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     String currentPhotoPath;
 
     /**
-     * Creates a new image file to hold the freshly caught image
+     * Creates a new image file to store the freshly caught image
      */
     private File createImageFile() throws IOException {
         // Create an image file name
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Saves the new image to the phone gallery
+     * Saves the new image file to the phone gallery
      */
     private void galleryAddPic() {
         Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
