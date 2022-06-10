@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 storageDir      /* directory */
         );
 
-        // Save a file: path for use with ACTION_VIEW intents
+        // Save a filepath for use with ACTION_VIEW intents
         currentPhotoPath = image.getAbsolutePath();
         return image;
     }
